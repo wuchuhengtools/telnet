@@ -1,5 +1,5 @@
 # Define the binary name and the output format
-BINARY_NAME := app
+BINARY_NAME := telnet
 OUTPUT_DIR := assets
 # Get the version from the cli, like: `make build VERSION=1.0.0`
 VERSION := $(if $(VERSION),$(VERSION),0.1.0)
